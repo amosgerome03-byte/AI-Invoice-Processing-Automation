@@ -1,118 +1,139 @@
-🤖 Amos Gerome – RPA Automation
+# 🤖 AI-Powered Invoice Automation with UiPath
 
-🚀 RPA Developer | Intelligent Automation Specialist | UiPath Automation
+## 📌 Project Overview
 
-I design and build Robotic Process Automation (RPA) workflows that automate repetitive business processes, reduce manual data entry, and improve operational efficiency.
+This project demonstrates an end-to-end intelligent automation system that processes invoices using UiPath, Document Understanding, and Generative AI.
 
-My projects focus on intelligent automation using UiPath, Document Understanding, and AI-powered data processing to transform manual workflows into scalable automated systems.
+The solution extracts structured data from invoice files stored in Google Drive, generates AI-powered purchase descriptions, and automatically stores results in Google Sheets.
 
-🧠 Core Skills
+---
 
-🤖 Robotic Process Automation (RPA)
+## 🎯 Project Goal
 
-⚙️ UiPath Workflow Design
+* ⚡ Automate manual invoice processing
+* 📉 Reduce human errors and repetitive work
+* 📊 Structure unorganized invoice data
+* 🤖 Enhance data with AI-generated insights
+* 📈 Improve scalability for finance operations
 
-📄 Intelligent Document Processing
+---
 
-🧠 AI-assisted Data Extraction
+## ❌ Problem
 
-🔗 Cloud Integration (Google Drive & Sheets)
+Manual invoice processing is:
 
-🧩 Automation Logic & Data Mapping
+* 🐢 Slow and time-consuming
+* 🔁 Highly repetitive
+* ⚠️ Prone to human error
 
-⚙️ Tools & Technologies
-🤖 RPA & Automation
+Finance teams must:
 
-UiPath Studio Web
-UiPath Document Understanding
-UiPath Generative AI Activities
+* Open each invoice manually
+* Extract key data
+* Enter it into spreadsheets
 
-🔗 Integrations
+➡️ This reduces productivity and does not scale with business growth.
 
-Google Drive
-Google Sheets
+---
 
-🧩 Automation Components
+## 💡 Solution
 
-Data Mapping
-Conditional Logic (IF Conditions)
-Workflow Debugging & Logging
+Built an end-to-end UiPath automation that:
 
-🚀 Featured RPA Projects
-🔹 Invoice Processing Automation with UiPath
+* 📂 Reads invoice files directly from Google Drive
+* 🧠 Extracts structured data using Document Understanding (DU)
+* 🤖 Uses Generative AI to create purchase descriptions
+* 📊 Automatically appends results into Google Sheets
 
-End-to-end RPA workflow that automates invoice processing using UiPath Document Understanding and Generative AI.
+➡️ This eliminates manual data entry and standardizes invoice reporting.
 
-The system extracts invoice data automatically and stores structured results in Google Sheets.
+---
 
-⚙️ Automation Workflow
+## 🔄 Workflow Overview
 
-The automation pipeline performs the following steps:
+1. 📥 Fetch invoices from Google Drive
+2. 📄 Process documents using UiPath Document Understanding
+3. 🔍 Extract key fields (vendor, amount, date, etc.)
+4. 🤖 Generate AI-powered purchase description
+5. 🧾 Apply logic (IF conditions for validation)
+6. 📊 Store structured data in Google Sheets
+7. 📝 Log results and handle errors
 
-• Reads invoice documents from Google Drive
-• Extracts structured invoice data using Document Understanding
-• Uses Generative AI to generate a purchase description
-• Applies conditional logic validation (IF conditions)
-• Automatically stores processed results in Google Sheets
+---
 
-🖼 RPA Workflow Diagram
+## 🧩 Tools & Technologies
 
-(Add your RPA workflow screenshot here)
+* 🤖 UiPath Studio Web
+* 📄 Document Understanding (DU)
+* 🤖 Generative AI (AI activities)
+* 📊 Google Sheets integration
+* ☁️ Google Drive integration
 
-🔎 Conditional Logic
+---
 
-The automation includes validation logic using IF conditions to ensure correct processing and data validation.
+## 🚀 Key Features
 
-(Add IF condition screenshot here)
+* 🔄 End-to-end automation pipeline
+* 📂 Cloud-based file processing
+* 🧠 AI-enhanced data enrichment
+* ⚙️ Conditional logic (IF validation)
+* 🪵 Logging and debugging system
+* 📊 Real-time data storage
 
-📊 Automation Output
+---
 
-After processing, the automation automatically writes structured invoice data to Google Sheets for reporting and analysis.
+## 📈 Results & Impact
 
-(Add Google Sheets screenshot here)
+* ⏱ Significant reduction in processing time
+* 🎯 Improved accuracy and consistency
+* 🤖 AI-generated context for each invoice
+* 📦 Ability to handle large volumes of data
+* ☁️ Seamless integration with cloud tools
 
-🧩 Skills Demonstrated
+---
 
-UiPath Studio Web development
+## ⚠️ Challenges
 
-RPA workflow architecture
+* 🔗 Field-to-column data mapping
+* 📉 Handling low-confidence extracted data
+* 🔁 Iterating through Google Drive files
+* 🐞 Debugging in cloud environment
 
-Intelligent document processing (IDP)
+---
 
-Cloud integration with Google Drive
+## 🔧 Improvements
 
-Data extraction automation
+* 🛠 Add exception handling for failed invoices
+* 👨‍💼 Introduce human validation step
+* 📧 Automate email reporting
+* 📊 Build analytics dashboard
 
-Conditional automation logic
+---
 
-Debugging and workflow monitoring
+## 🧠 Skills Demonstrated
 
-📈 Business Benefits
+* RPA Development (UiPath)
+* Intelligent Document Processing (IDP)
+* AI + Automation Integration
+* Workflow Design & Logic Building
+* Data Mapping & Transformation
+* Debugging & Logging
 
-This automation provides measurable operational improvements:
+---
 
-✔ Significant reduction in manual invoice processing time
-✔ Improved data accuracy and consistency
-✔ Automated document processing pipeline
-✔ Scalable solution for large volumes of invoices
-✔ Real-time integration with cloud-based tools
+## 🏁 Conclusion
 
-Most importantly, it allows finance teams to focus on higher-value analytical tasks instead of repetitive manual work.
+This project showcases how Robotic Process Automation (RPA) and Artificial Intelligence can work together to modernize traditional finance operations.
 
-📌 Conclusion
+By transforming unstructured invoice documents into structured, AI-enhanced data, the solution improves:
 
-This project demonstrates how Robotic Process Automation and Artificial Intelligence can work together to modernize financial operations.
+* ⚡ Efficiency
+* 🎯 Accuracy
+* 📈 Scalability
 
-By transforming unstructured invoice documents into structured AI-enhanced data, the solution improves:
+---
 
-• Efficiency
-• Accuracy
-• Scalability
+## 👨‍💻 Author
 
-This reflects a real-world implementation of intelligent automation in business environments.
-
-📬 Contact
-
-📧 Email: amosgeromeo3@gmail.com
-💼 LinkedIn: https://www.linkedin.com/in/amos-gerome-2b21b3310/
-🌎 Location: United States
+**Amos Gerome**
+AI Automation & Intelligent Systems 🚀
